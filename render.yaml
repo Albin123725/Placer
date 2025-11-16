@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: minecraft-bot
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: MINECRAFT_HOST
+        sync: false
+      - key: MINECRAFT_PORT
+        sync: false
+      - key: MINECRAFT_USERNAME
+        sync: false
+      - key: MINECRAFT_VERSION
+        sync: false
+      - key: MINECRAFT_AUTH
+        sync: false
+      - key: NODE_ENV
+        value: production

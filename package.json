@@ -1,0 +1,23 @@
+{
+  "name": "minecraft-bot",
+  "version": "1.0.0",
+  "description": "A Minecraft bot for Aternos server that moves, places and breaks blocks",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "bot": "node bot.js"
+  },
+  "keywords": [
+    "minecraft",
+    "bot",
+    "aternos"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mineflayer": "^4.25.0",
+    "mineflayer-pathfinder": "^2.4.5"
+  }
+}

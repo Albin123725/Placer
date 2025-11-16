@@ -1,0 +1,29 @@
+{
+  "circleCenter": {
+    "x": 245,
+    "y": 87,
+    "z": -708
+  },
+  "radius": 5,
+  "pointsPerCircle": 16,
+  "blockType": "dirt",
+  "jumpWhileWalking": true,
+  "walkSpeed": 300,
+  "delayBetweenActions": 1000,
+  "requiredInventory": {
+    "bed": 1,
+    "dirt": 64,
+    "chest": 1
+  },
+  "autoSleep": true,
+  "bedSearchRadius": 20,
+  "chestInteraction": {
+    "enabled": true,
+    "depositItems": {
+      "dirt": 2
+    },
+    "withdrawItems": {
+      "dirt": 2
+    }
+  }
+}
